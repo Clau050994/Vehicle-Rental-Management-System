@@ -27,6 +27,19 @@ The Vehicle Rental Management System is a Java-based application that manages ve
 4. **Maintenance Tracking:** System for scheduling and tracking vehicle maintenance.
 5. **Interface and Testing:** Design of a user interface and comprehensive testing.
 
+   ## Enhancements with Abstract Classes and Interfaces
+
+To improve the flexibility and maintainability of our code, we have introduced abstract classes and interfaces:
+
+- The `Vehicle` class has been made abstract to serve as a foundational class that defines common attributes and abstract methods for different types of vehicles.
+
+- A `Maintainable` interface has been introduced to standardize maintenance operations across all vehicle types that require regular service.
+
+- The `Rentable` interface ensures that all items that can be rented, including vehicles, adhere to the same rental process, providing a consistent experience.
+
+These changes allow for better scalability and make our system more adaptable to future requirements.
+
+
 
 
 ### Prerequisites

@@ -71,6 +71,10 @@ public class Car extends Vehicle {
 
         }
 
+    @Override    // i need to define this
+    public double calculateRentalPrice(int duration) {
+        return 0;
+    }
 
     public int getSeatingCapacity(){return  seatingCapacity;}
     public String getFuelType(){return fuelType;}

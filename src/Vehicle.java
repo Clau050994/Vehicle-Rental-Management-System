@@ -1,4 +1,4 @@
-public class Vehicle {
+public abstract class Vehicle {
     private String vehicleID; // Unique for each vehicle
     private String make; // Take the brand of the vehicle
     private String model; //Model of the vehicle
@@ -61,6 +61,10 @@ public class Vehicle {
     public String getModel(){return model;}
     public int getYear(){return year;}
     public double getPricePerDay(){return pricePerDay;}
+
+    public abstract double calculateRentalPrice(int duration);
+
+
 
 
     public String toString() {
